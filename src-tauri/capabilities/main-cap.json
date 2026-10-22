@@ -1,0 +1,18 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-capability",
+  "description": "Main capability for the application",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "allow-load-findings",
+    "allow-save-findings",
+    "allow-upload-image",
+    "allow-delete-image",
+    "allow-load-settings",
+    "allow-save-settings",
+    "allow-get-app-data-dir"
+  ]
+}
